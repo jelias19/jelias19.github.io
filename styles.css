@@ -1,3 +1,8 @@
-html{
-	background-color: gray;
+
+.homepage{
+	text-align: center;
+}
+#dark_blues{
+	border: 1px solid;
+	border-style: thick;
 }
