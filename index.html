@@ -4,16 +4,18 @@
 	<title>Jeffs Hockey Page</title>
 	<link rel="stylesheet" type = "text/css" href = "styles.css" 
 </head>
+<header id="home">
+	<h1 >Jeff's Hockey Career</h1>
+</header>
 <body>
-<h1>Jeff's Hockey Career</h1>
-<img src = "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/1929555_528230000838_8062_n.jpg?oh=758d0820a8e2f3032525cf2349f4f7f1&oe=579F529C" alt="Jeff Hockey">
-<h2>Early Years</h2>
+<img id = "hpskate" src = "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/1929555_528230000838_8062_n.jpg?oh=758d0820a8e2f3032525cf2349f4f7f1&oe=579F529C" alt="Jeff Hockey">
+<h2 class = "homepage">Early Years</h2>
 <p>Jeff has been playing hockey since he was 6 years old, and continues to play to this day. He started out playing Roller Hockey on the streets, and then started to play Ice Hockey on recreational teams. Fast forward a few years, and Jeff was playing on multiple Roller Hockey and Ice Hockey teams. He was playing 4-5 times a week, and multiple times a day. </p>
 
-<h2>High School Years</h2>
-<p>Jeff's high school did not have a team, so he was able to play for another school. Freshman year he played for Valley Stream and  then played High School Ice Hockey for Carey-West Hempstead Sophmore through Junior Year. He also played High School Roller Hockey Sophmore through Senior Year for another neighboring school. His senior year, he played Ice Hockey for the <a href="https://en.wikipedia.org/wiki/New_York_Apple_Core">NY Apple Core</a> travel organization.</p>
+<h2 class = "homepage">High School Years</h2>
+<p>Jeff's high school did not have a team, so he was able to play for another school. Freshman year he played for Valley Stream and  then played High School Ice Hockey for Carey-West Hempstead Sophmore through Junior Year. He also played High School Roller Hockey Sophmore through Senior Year for another neighboring school. His senior year, he played Ice Hockey for the <a href="https://en.wikipedia.org/wiki/New_York_Apple_Core" id = "travel" target="blank">NY Apple Core</a> travel organization.</p>
 
-<h3>Ice Hockey</h3>
+<h3 class = "homepage" >Ice Hockey</h3>
 <table border = "1">
 	<tr>
 		<th>Year</th>
@@ -41,23 +43,23 @@
 	</tr>
 </table>
 
-<h2>College Years</h2>
-<p>Jeff attended the University at Buffalo for both undergraduate and graduate studies. He played 5 years of Roller Hockey in the <a href = "https://ncrha.org/">NCRHA</a> for the school team, where they won 2 Regional Championships and attended Nationals 5 years.</p>
-<h3>Regional Championship Seasons</h3>
-<img src ="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/1929555_529336318768_7660_n.jpg?oh=4e4b56baea56c24bf72584194b143910&oe=57ACEC98" alt="Team Photo">
-<ul>
-	<li>2007-2008</li>
-	<li>2009-2010</li>
-</ul>
-<h3>Similar Website</h3>
-<p>I found a biography for a hockey player <a href="http://www.jockbio.com/Bios/J_Tavares/J_Tavares_bio.html">John Tavares</a> and looked at the source code. One of the biggest differences I noticed was that there are two seperate sets of HTML tags. I tried looking this up and found that it is nothing something that you should do.</p>
+	<h2>College Years</h2>
+		<p>Jeff attended the <a id = "buff" href="http://www.buffalo.edu/" target= "blank">University at Buffalo</a> for both undergraduate and graduate studies. He played 5 years of Roller Hockey in the <a id = "ncrha" href = "https://ncrha.org/" target="blank">NCRHA</a> for the school team, where they won 2 Regional Championships and attended Nationals 5 years.</p>
+	<h3>Regional Championship Seasons</h3>
+		<img src ="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/1929555_529336318768_7660_n.jpg?oh=4e4b56baea56c24bf72584194b143910&oe=57ACEC98" alt="Team Photo">
+		<ul>
+			<li>2007-2008</li>
+			<li>2009-2010</li>
+		</ul>
+	<h3>Similar Website</h3>
+		<p>I found a biography for a hockey player <a id="jt" href="http://www.jockbio.com/Bios/J_Tavares/J_Tavares_bio.html" target="blank">John Tavares</a> and looked at the source code. One of the biggest differences I noticed was that there are two seperate sets of HTML tags. I tried looking this up and found that it is not something that you should do.</p>
 
-<p>I do notice a lot of similar tags that I used especially when it comes to create tables. They styled each of the elements as well, where as mine is basic HTML and not applied any styling. They also used the div tag a lot which helps group elements and spacing for different parts of the website. Overall, the site looks pretty clean, just very basic. The text adjusts well with the ads that are built into the body of the page.</p> 
+	<p>I do notice a lot of similar tags that I used especially when it comes to create tables. They styled each of the elements as well, where as mine is basic HTML and not applied any styling. They also used the div tag a lot which helps group elements and spacing for different parts of the website. Overall, the site looks pretty clean, just very basic. The text adjusts well with the ads that are built into the body of the page.</p> 
 <footer>
-<h2>Want to speak with me?</h2>
-<a href="contact.html">Contact Me</a>
-
-
+	<h2>Want to speak with me?</h2>
+		<form method="get" action="contact.html" target="blank">
+			<button type="submit">Contact Me</button>
+		</form>
 </footer>
 </body>
 </html>

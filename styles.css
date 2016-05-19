@@ -1,3 +1,78 @@
 html{
-	background-color: gray;
+	background-color: #F8F8FF;
+}
+
+header#home h1{
+	top:-21px;
+  	text-align: center;
+ 	width: 100%;
+  	background-color: white;
+  	border-bottom: 1px solid black;
+	position:fixed;
+	background-image: url("https://fgl.scene7.com/is/image/FGLSportsLtd/cms-hockey-1920x520?wid=1920&fit=fit,1&op_sharpen=1&resMode=sharp2&qlt=85,1");
+	color:white;
+}
+
+header#contact h1{
+	background-color: #0066FF;
+	border-radius:25px;
+	width:200px;
+	padding-left: 30px;
+}
+
+#hpskate{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#dark_blues{
+	border: 1px solid;
+	border-style: thick;
+}
+
+h1, h2, h3{
+	font-family: "Helvetica";
+}
+
+a{
+	text-decoration: none;
+
+}
+
+#ncrha{
+	color: red;	
+}
+
+a#ncrha:hover{
+	color:blue;
+}
+
+#travel{
+	color:green;
+}
+
+a#travel:hover{
+	color:red;
+}
+
+#jt{
+	color: orange;
+}
+
+a#jt:hover{
+	color:blue;
+}
+
+
+#buff{
+	color:rgb(0,76,147);
+}
+
+a#buff:hover{
+	color:rgb(132,134,135);
+}
+
+footer{
+	text-align: center;
 }
