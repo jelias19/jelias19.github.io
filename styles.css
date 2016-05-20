@@ -2,18 +2,10 @@ html{
 	background-color: #F8F8FF;
 }
 
-#contactimage{
+#contactpage{
 	background: url("http://vancouvercanucks.com.au/wp-content/uploads/2012/06/ice-rink-ice.jpg") no-repeat center fixed;
-	background-size: cover;
-	
+	background-size: cover;	
 }
-
-@media screen and (min-width: 730px){
-	#dark_blues{
-		display:inline;
-		margin-right: 80px;
-}
-
 
 header#home{
 	vertical-align:center;
@@ -23,8 +15,8 @@ header#home{
 	position:fixed;
 	background-image: url("https://fgl.scene7.com/is/image/FGLSportsLtd/cms-hockey-1920x520?wid=1920&fit=fit,1&op_sharpen=1&resMode=sharp2&qlt=85,1");
 	background-size:100% 100%;
+	border-bottom: 10px;
 	margin-left: -8px;
-
 }
 
 #home h1{
@@ -49,11 +41,11 @@ header#contact h1{
 	margin-right: auto;
 	margin-top: 100px;
 	padding:10px;
-
+	border:30px;
 }
 
 #dark_blues{
-	border: 1px solid;
+	border: 4px solid;
 	border-style: thick;
 	float:right;
 	vertical-align: text-top;
@@ -61,11 +53,16 @@ header#contact h1{
 	margin-left: 80px;
 }
 
+#regional{
+	zoom:50%;
+}
+table{
+	border: 1;
+}
 form{
 	padding-top: 25px;
 	padding-left: 45px;
 	display: inline-block;
-	margin
 }
 
 h1, h2, h3{
@@ -89,7 +86,7 @@ address h2{
 	color: red;	
 }
 
-a#ncrha:hover{
+a#ncrha:visited{
 	color:blue;
 }
 
@@ -97,27 +94,48 @@ a#ncrha:hover{
 	color:green;
 }
 
-a#travel:hover{
+a#travel:visited{
 	color:red;
 }
 
 #jt{
-	color: orange;
+	color: blue;
 }
 
-a#jt:hover{
-	color:blue;
+a#jt:visited{
+	color:orange;
 }
-
 
 #buff{
 	color:rgb(0,76,147);
 }
 
-a#buff:hover{
+a#buff:visited{
 	color:rgb(132,134,135);
+}
+
+a#home{
+	color:white;
+	background-color: gray;
+	border: 2px solid black;
 }
 
 footer{
 	text-align: center;
+	padding-top: 20px;
 }
+
+@media screen and (max-width: 735px){
+	#dark_blues{
+		display:inline;
+		margin-right: 80px;
+		float: left;
+		margin-top: 20px;
+	}
+
+ address h2 {
+   position: absolute;
+   padding: 10px;
+   text-align: center;
+   }
+ }
