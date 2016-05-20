@@ -56,7 +56,9 @@ header#contact h1{
 #regional{
 	zoom:50%;
 }
-
+table{
+	border: 1;
+}
 form{
 	padding-top: 25px;
 	padding-left: 45px;
