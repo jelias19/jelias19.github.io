@@ -1,19 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html class = "contact">
 <head>
 	<title>Contact</title>
 	<link rel="stylesheet" type = "text/css" href = "styles.css" 
 </head>
-<body>
-<header id="contact">
-	<h1>Contact Me</h1>
-</header>
-
-<address>
-	<p><a href="mailto:elias.jeffrey@gmail.com">Shoot Me An Email</a><p>
-</address>
-<img id = "dark_blues" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/1929555_528230020798_8638_n.jpg?oh=a5eea20fd74b03acff146125deda4ebf&oe=57A8BF8F"  alt="jeff hockey">
-<h2><a href="index.html">Jeff's Hockey Page</a></h2>
-
-</body>
+	<body id="contactimage">
+		<header id="contact">
+			<h1>Contact Me</h1>
+		</header>
+		<main>
+			<form  method="post" action="mailto:elias.jeffrey@gmail.com">
+			Name:<br>
+				<input type="text" name="name" placeholder="Name"><br>
+				E-mail:<br>
+				<input type="text" name="mail" placeholder="Email"><br>
+				Reading for Contact:<br>	
+				<select> 
+					<option value="question">Question</option>
+					<option value="touch_base">Touching Base</option>
+					<option value="feedback">Feedback</option>
+					<option value="other">Other</option>
+				</select><br>
+				Comment:<br>
+				<textarea cols="50" rows="5" name="comment" placeholder="Comments..."></textarea><br><br>
+				<input type="submit" value="Send">
+				<input type="reset" value="Reset">
+			</form>
+	<img id = "dark_blues" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/1929555_528230020798_8638_n.jpg?oh=a5eea20fd74b03acff146125deda4ebf&oe=57A8BF8F"  alt="jeff hockey">
+		</main>
+		<footer>
+		<address>
+			<h2><a href="index.html">Jeff's Hockey Page</a></h2>
+		</address>
+		</footer>
+	</body>
 </html>
