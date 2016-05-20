@@ -73,7 +73,7 @@ a{
 	text-decoration: none;
 }
 
-address h2{
+nav h2{
 	position:fixed;
 	bottom:0px;
 	left:0px;
@@ -133,7 +133,7 @@ footer{
 		margin-top: 20px;
 	}
 
- address h2 {
+ nav h2 {
    position: absolute;
    padding: 10px;
    text-align: center;
