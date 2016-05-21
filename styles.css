@@ -2,6 +2,10 @@ html{
 	background-color: #F8F8FF;
 }
 
+h1{
+	text-shadow: 1px 1px 0 black;
+}
+
 #contactpage{
 	background: url("http://vancouvercanucks.com.au/wp-content/uploads/2012/06/ice-rink-ice.jpg") no-repeat center fixed;
 	background-size: cover;	
@@ -61,7 +65,7 @@ header#contact h1{
 	margin: 20px; width:100px;
 	float: left;
 	padding-top:40px;
-
+	list-style-type: circle;
 }
 
 #website{
@@ -93,6 +97,7 @@ form{
 h1, h2, h3{
 	font-family: "Courier New";
 	text-align: center;
+
 }
 
 a{
