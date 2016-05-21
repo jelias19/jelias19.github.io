@@ -135,6 +135,7 @@ footer{
 
  nav h2 {
    position: absolute;
+   margin-top: 400px;
    padding: 10px;
    text-align: center;
    }
