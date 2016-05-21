@@ -56,9 +56,10 @@ header#contact h1{
 #regional{
 	zoom:50%;
 }
-table{
-	border: 1;
+table, th, td{
+	border: 1px solid black;
 }
+
 form{
 	padding-top: 25px;
 	padding-left: 45px;
@@ -138,5 +139,6 @@ footer{
    margin-top: 400px;
    padding: 10px;
    text-align: center;
+   clear:both;
    }
  }
