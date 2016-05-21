@@ -17,6 +17,10 @@ header#home{
 	background-size:100% 100%;
 	border-bottom: 10px;
 	margin-left: -8px;
+	padding-bottom: 50px;
+}
+#youth{
+	padding-top: 150px;
 }
 
 #home h1{
@@ -35,13 +39,33 @@ header#contact h1{
 	text-align: center;
 }
 
-#hpskate{
-	display:block;
+#champs{
+	width:555px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 100px;
-	padding:10px;
-	border:30px;
+}
+
+
+#champs #left{
+	float:left;
+	zoom:50%;
+}
+
+
+#champs #right{
+	zoom:50%;
+	vertical-align: text-top;
+}
+
+#champs ul{
+	margin: 20px; width:100px;
+	float: left;
+	padding-top:40px;
+
+}
+
+#website{
+	display:inline-block;
 }
 
 #dark_blues{
@@ -53,11 +77,11 @@ header#contact h1{
 	margin-left: 80px;
 }
 
-#regional{
-	zoom:50%;
-}
+
 table, th, td{
 	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 form{
@@ -67,7 +91,8 @@ form{
 }
 
 h1, h2, h3{
-	font-family: "Helvetica";
+	font-family: "Courier New";
+	text-align: center;
 }
 
 a{
@@ -142,3 +167,16 @@ footer{
    clear:both;
    }
  }
+
+
+ @media screen and (max-width: 555px){
+	#champs #left{
+	
+	zoom:35%;
+}
+
+#champs #right{
+	zoom:35%;
+
+}
+}
