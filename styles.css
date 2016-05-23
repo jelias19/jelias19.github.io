@@ -49,25 +49,26 @@ header#contact h1{
 
 #champs #left{
 	float:left;
-	zoom:50%;
+	width: 200px;
+	height:175px;
 }
 
 
 #champs #right{
-	zoom:50%;
 	vertical-align: text-top;
+	width: 200px;
+	height:175px;
+	margin-right: auto;
+	padding-left: 40px
 }
 
 #champs ul{
-	margin: 20px; width:100px;
+	width:75px;
 	float: left;
 	list-style-type: circle;
 	padding-top: 45px;
 }
 
-#website{
-	display:inline-block;
-}
 
 #dark_blues{
 	border: 2px solid black;
@@ -173,13 +174,27 @@ footer{
 
 
  @media screen and (max-width: 555px){
+	#champs{
+	width:415px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
 	#champs #left{
-	
-	zoom:35%;
+	width: 125px;
+	height:85px;
+}
+
+#champs ul{
+	width:75px;
+	float: left;
+	list-style-type: circle;
+	padding-top:15px;
 }
 
 #champs #right{
-	zoom:35%;
+	width: 125px;
+	height:85px;
 
 }
 }
