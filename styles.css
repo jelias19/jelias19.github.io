@@ -2,18 +2,16 @@ html{
 	background-color: #F8F8FF;
 }
 
-h1{
-	text-shadow: 1px 1px 0 black;
-}
 
 #contactpage{
 	background: url("http://vancouvercanucks.com.au/wp-content/uploads/2012/06/ice-rink-ice.jpg") no-repeat center fixed;
-	background-size: cover;	
+	background-size: cover;
+	opacity: .8;	
 }
 
 header#home{
 	vertical-align:center;
-	top:1px;
+	top:-1px;
  	width: 100%;
  	height: 100px;
 	position:fixed;
@@ -22,15 +20,14 @@ header#home{
 	border-bottom: 10px;
 	margin-left: -8px;
 	padding-bottom: 50px;
-}
-#youth{
-	padding-top: 150px;
-}
-
-#home h1{
+	text-shadow: 1px 1px 0 black;
 	padding-top:18px;
 	text-align: center;
 	color: white;
+}
+
+#youth{
+	padding-top: 150px;
 }
 
 header#contact h1{
@@ -47,34 +44,34 @@ header#contact h1{
 	width:555px;
 	margin-left: auto;
 	margin-right: auto;
-}
+	}
 
 
 #champs #left{
 	float:left;
-	zoom:50%;
+	width: 200px;
+	height:175px;
 }
 
 
 #champs #right{
-	zoom:50%;
 	vertical-align: text-top;
+	width: 200px;
+	height:175px;
+	margin-right: auto;
+	padding-left: 40px
 }
 
 #champs ul{
-	margin: 20px; width:100px;
+	width:75px;
 	float: left;
-	padding-top:40px;
 	list-style-type: circle;
+	padding-top: 45px;
 }
 
-#website{
-	display:inline-block;
-}
 
 #dark_blues{
-	border: 4px solid;
-	border-style: thick;
+	border: 2px solid black;
 	float:right;
 	vertical-align: text-top;
 	margin-right:80px;
@@ -113,7 +110,7 @@ nav h2{
 	text-align: center;
 }
 
-#ncrha{
+a#ncrha{
 	color: red;	
 }
 
@@ -121,7 +118,7 @@ a#ncrha:visited{
 	color:blue;
 }
 
-#travel{
+a#travel{
 	color:green;
 }
 
@@ -129,7 +126,7 @@ a#travel:visited{
 	color:red;
 }
 
-#jt{
+a#jt{
 	color: blue;
 }
 
@@ -137,7 +134,7 @@ a#jt:visited{
 	color:orange;
 }
 
-#buff{
+a#buff{
 	color:rgb(0,76,147);
 }
 
@@ -155,6 +152,8 @@ footer{
 	text-align: center;
 	padding-top: 20px;
 }
+
+
 
 @media screen and (max-width: 735px){
 	#dark_blues{
@@ -175,13 +174,27 @@ footer{
 
 
  @media screen and (max-width: 555px){
+	#champs{
+	width:415px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
 	#champs #left{
-	
-	zoom:35%;
+	width: 125px;
+	height:85px;
+}
+
+#champs ul{
+	width:75px;
+	float: left;
+	list-style-type: circle;
+	padding-top:15px;
 }
 
 #champs #right{
-	zoom:35%;
+	width: 125px;
+	height:85px;
 
 }
 }
